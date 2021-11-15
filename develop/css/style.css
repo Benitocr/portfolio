@@ -21,6 +21,20 @@ header{
 
 }
 
+h2{
+    font-size: 3em;
+}
+ 
+h3{
+    font-size: 1.5em ;
+}
+
+.section-title{
+    border-bottom: 3px solid gray;
+    width: 50% ;
+    justify-content: center;
+    margin: 0 auto 35px auto;
+}
 .main-header{
     align-items: center;
 }
@@ -43,6 +57,10 @@ header nav ul   li a{
     color: whitesmoke;
 }
 
+.about-me p{
+    line-height: 1.7;
+    color: gray;
+}
 
 .about-me h2, .challenges h2{
     text-align: center;
