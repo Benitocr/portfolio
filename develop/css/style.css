@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+:root{
+
+}
+
+header{
+    position: sticky;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    top: 0;
+    padding: 5px;
+    background-color: black;
+    color: whitesmoke;
+
+}
+
+.main-header{
+    align-items: center;
+}
+
+header nav ul{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    list-style: none;
+}
+
+header nav ul li{
+    padding: 15px 15px;
+    
+
+}
+
+header nav ul   li a{
+    color: whitesmoke;
+}
+
+
+.about-me h2, .challenges h2{
+    text-align: center;
+  
+    
+}
+.about-me h2, .about-me div{
+    padding: 15px 15px;
+}
+.about-me div{
+    text-align: center;
+    padding: 15px 15px;
+}
+
+.card-img img{
+    flex: 1 12%;
+    width: 100%;
+    min-width: 500px;
+ 
+    
+}
+
+.cards{ 
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+   
+}
+.card{
+    flex:1 0 0;
+    padding: 10px;
+    border: gray solid 1px;
+
+}
+
+.card h3, .card h4{
+    text-align: center;
+}
+
+.contactforms{
+    display: flex;
+    flex: 1 0 0;
+    justify-content: space-between;
+}
+
+.contactme h2{
+    text-align: center;
+}
+.contactforms h3{
+    padding: 20px;
+    
+}
+.contactforms h3 a{
+    color: black;
+}
+/* 
+ /* MEDIA QUERY FOR TABLETS AND SMALLER */
+ @media screen and (max-width: 768px) {
+    /* this will be applied on any screen between 768px and 575px */
+    .cards section{
+        flex: 1 0 0;
+    
+    }
+  
+  }
+
+/* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
+@media screen and (max-width: 575px) {
+    /* this will be applied on any screen smaller than 575px */
+    .cards section{
+        flex: 1 0 0;
+    
+
+   } */
