@@ -21,6 +21,11 @@ header{
 
 }
 
+h1{
+    font-size: 3.5em;
+    margin: 0 auto 10px auto;
+}
+
 h2{
     font-size: 3em;
 }
@@ -32,7 +37,7 @@ h3{
 .section-title{
     border-bottom: 3px solid gray;
     width: 50% ;
-    justify-content: center;
+   
     margin: 0 auto 35px auto;
     
 }
