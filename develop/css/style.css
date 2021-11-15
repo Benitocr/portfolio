@@ -57,12 +57,11 @@ header nav ul   li a{
     padding: 15px 15px;
 }
 
-.card-img img{
+.main-card-img img, .card-img img{
     flex: 1 12%;
     width: 100%;
     min-width: 500px;
-    max-height: 300px;
- 
+    
     
 }
 
@@ -75,10 +74,15 @@ header nav ul   li a{
 .card{
     flex:1 0 0;
     padding: 10px;
-
+    /* max-width: 400px; */
+    
 
 }
 
+.mainp h3, .mainp h4{
+    text-align: center;
+
+}
 .card h3, .card h4{
     text-align: center;
 }
