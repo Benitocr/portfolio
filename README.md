@@ -10,5 +10,7 @@ Personal Webpage with the projects I have work in.
 ## Website
 https://benitocr.github.io/portfolio/
 
+![landing page](./develop/images/web.jpg)
+
 ## Contribuition
 Made by Benito C.
